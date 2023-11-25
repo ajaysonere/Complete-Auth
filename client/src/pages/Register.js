@@ -30,6 +30,7 @@ function Register() {
         
       } catch (error) {
         alert(`Registration Failed `);
+        console.log(error);
       }
    }
 
